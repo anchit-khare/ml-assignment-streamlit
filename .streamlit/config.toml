@@ -1,0 +1,29 @@
+# Light + dark both defined so Settings keeps a working theme switch.
+# Amber / slate palette — distinct from the bank-marketing app.
+
+[theme]
+base = "dark"
+primaryColor = "#f59e0b"
+
+[theme.light]
+primaryColor = "#d97706"
+backgroundColor = "#fffbeb"
+secondaryBackgroundColor = "#fef3c7"
+textColor = "#1c1917"
+borderColor = "#fcd34d"
+
+[theme.dark]
+primaryColor = "#f59e0b"
+backgroundColor = "#111827"
+secondaryBackgroundColor = "#1f2937"
+textColor = "#f3f4f6"
+borderColor = "#374151"
+
+[theme.light.sidebar]
+backgroundColor = "#fef3c7"
+textColor = "#1c1917"
+
+[theme.dark.sidebar]
+backgroundColor = "#0b1220"
+secondaryBackgroundColor = "#1f2937"
+textColor = "#f3f4f6"

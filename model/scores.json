@@ -1,0 +1,42 @@
+{
+  "logreg": {
+    "accuracy": 0.8806,
+    "auc": 0.8842,
+    "precision": 0.7088,
+    "recall": 0.3878,
+    "f1": 0.5014,
+    "mcc": 0.466
+  },
+  "dtree": {
+    "accuracy": 0.891,
+    "auc": 0.8845,
+    "precision": 0.6911,
+    "recall": 0.5346,
+    "f1": 0.6028,
+    "mcc": 0.5469
+  },
+  "knn": {
+    "accuracy": 0.8725,
+    "auc": 0.8052,
+    "precision": 0.6654,
+    "recall": 0.3543,
+    "f1": 0.4624,
+    "mcc": 0.4231
+  },
+  "nbayes": {
+    "accuracy": 0.2887,
+    "auc": 0.7853,
+    "precision": 0.1765,
+    "recall": 0.9811,
+    "f1": 0.2991,
+    "mcc": 0.1492
+  },
+  "rforest": {
+    "accuracy": 0.8978,
+    "auc": 0.9231,
+    "precision": 0.7596,
+    "recall": 0.4969,
+    "f1": 0.6008,
+    "mcc": 0.5613
+  }
+}
